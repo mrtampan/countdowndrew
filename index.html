@@ -67,7 +67,7 @@
     <script type="text/javascript">
   		$(function () {
   			var holiday = new Date();
-  			holiday = new Date("{{site.utc}}");
+  			holiday = new Date("2023-01-01");
   			$('#defaultCountdown').countdown({until: holiday});
   			$('#year').text(holiday.getFullYear());
   		});
